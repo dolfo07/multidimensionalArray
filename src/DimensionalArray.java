@@ -15,7 +15,7 @@ public class DimensionalArray {
        
         Scanner in = new Scanner(System.in);
         
-        double[][] trip = new double[2][3];//[2]equals two columns & [3] equals 3 rows
+        double[][] trip = new double[2][3];//[2]equals two rows & [3] equals 3 columns
         for(int i = 0; i<2; i++){
             System.out.println("Enter The Trip Cost");
             trip[i][0] = in.nextDouble();
